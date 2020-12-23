@@ -1,0 +1,15 @@
+Faça um projeto em Java para um sistema de folha de pagamento de uma empresa, que calcula o salário dos funcionários. No caso, dois tipos de funcionários são considerados:
+
+1)   funcionários horistas;
+
+2)   funcionários mensalistas.
+
+Todo funcionário possui nome e sobrenome. Os funcionários horistas possuem como atributos o salarioPorHora (que guarda o salário por hora) e o numeroHoras (que guarda o número de horas que o horista trabalhou).
+
+Os funcionários mensalistas possuem o valor do salário armazenado no atributo salMensal.
+
+Caso o funcionário mensalista tenha faltado algum dia de trabalho, os dias não trabalhados implicam em perda de 2% no valor total do salário por cada um dos dias não trabalhados (veja se é necessário criar um atributo para isso).
+
+- O cálculo do valor do salário do funcionário horista é: número de horas trabalhadas * salário por hora.
+- O cálculo do valor do salário do mensalista é o valor do seu atributo salMensal. Um novo cálculo do valor do salário do mensalista deve ser feito caso existam dias não trabalhados, conforme explicado anteriormente.
+- As subclasses devem usar pelo menos um método sobrescrito. Os outros métodos devem ser identificados e implementados de acordo com sua modelagem.

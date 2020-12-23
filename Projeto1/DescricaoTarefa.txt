@@ -1,0 +1,11 @@
+Crie uma classe em Java chamada Pessoa que:
+
+a) contenha os atributos nome, idade e altura;
+
+b) encapsule os atributos;
+
+c) crie um construtor para armazenar os dados passados como parâmetro nos atributos da classe (todos os atributos);
+
+d) crie Getters para todos os atributos;
+
+e) crie outra classe chamada TestaPessoa, com o método main() que crie o objeto da classe, já armazenando algum valor inicial nos seus atributos através do construtor  e mostre os valores que estão nos atributos.

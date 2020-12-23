@@ -1,0 +1,45 @@
+Faça um projeto em Java para implementar a classe, conforme o diagrama abaixo:
+
+[Cilindro] --tem um-- [Círculo]
+
+Desenvolver uma classe em Java chamada Círculo com a seguinte estrutura:
+
+ 
+
+Atributos: raio (double)
+
+Método: Construtor
+
+	Recebe o raio e armazena no atributo da classe
+
+Método: calcArea()
+
+	Calcula e retorna a área do círculo
+
+ 
+
+Desenvolver uma classe em Java chamada Cilindro com a seguinte estrutura:
+
+ 
+
+Atributos: base (Círculo), altura (double)
+
+Método: Construtor
+
+	Recebe um círculo e uma altura e armazena nos atributos da classe
+
+Método: calcVolume()
+
+	Calcula e retorna o volume do cilindro
+
+Método: calcArea()
+
+	Calcula e retorna a área do cilindro
+
+ 
+
+Criar a classe testaForma para definir o método main() com a seguinte estrutura:
+
+- Solicitar ao usuário a digitação do raio do círculo e da altura do cilindro.
+- Instanciar objetos, de forma que os dados digitados sejam passados como parâmetro para o construtor.
+- Calcular e exibir a área e o volume do cilindro.

@@ -1,0 +1,1 @@
+Fazer programa em Java, implementado as classes Pedido, Item e Produto, de acordo com o respectivo Diagrama de Classes.
